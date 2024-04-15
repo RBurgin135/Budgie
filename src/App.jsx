@@ -8,12 +8,13 @@ export default function Host(){
 
     return (
         <body class="w3-light-grey">
-            <div class="w3-content">
-                <TopBar />
+            <TopBar />
+            <div class="w3-content ">
+                
                 <CardGrid />
                 
-                <Footer />
             </div>
+            <Footer />
         </body>
     )
 }
