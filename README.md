@@ -5,4 +5,6 @@ I made this because I become increasingly frustrated with budgetting on spreadsh
 
 I have created it using React, with an SQL backend.
 
+It also contains a Dockerfile to be able to run within a container.
+
 <3 Richard
