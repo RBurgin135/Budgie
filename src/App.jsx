@@ -9,8 +9,9 @@ export default function Host(){
     return (
         <body class="w3-light-grey">
             <TopBar />
+            
             <div class="w3-content ">
-                
+    
                 <CardGrid />
                 
             </div>

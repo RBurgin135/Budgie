@@ -16,21 +16,34 @@ function Card({title, items}){
     return (
         <div class="w3-card-2 w3-margin w3-white w3-container w3-animate-left">
             <h3><b>{title}</b></h3>
-            <CardItems list={items}/>
+            <CardList list={items}/>
         </div>
     )
 }
 
-function CardItems({list}){
-    const updatedNums = list.map((number)=>{
+function CardList({list}){
+    const updatedItems = list.map((item)=>{
         return (
-            <div class="w3-margin w3-white w3-container">
-                {number} testing the animateion
-            </div>
+            <CardItem item={item} />
         )
-    });
+    })
 
     return(
-        <div>{updatedNums}</div>
+        <div class="w3-container">
+        <table class="w3-table w3-bordered w3-margin-bottom">
+            {updatedItems}
+        </table>
+        </div>
+    )
+}
+
+function CardItem({item}){
+    return (
+        <tr onClick={()=>null}>
+            <th>name</th>
+            <th class="fixedWidth">gross</th>
+            <th class="fixedWidth">affiliation</th>
+        </tr>
+            
     )
 }

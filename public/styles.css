@@ -1,0 +1,12 @@
+tr {
+    cursor: pointer;
+    transition: background-color 0.18s;
+}
+
+tr:hover {
+    background-color: #D3D3D3;
+}
+
+th.fixedWidth {
+    width: 20pt
+}
