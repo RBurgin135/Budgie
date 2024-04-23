@@ -1,7 +1,9 @@
+//hooks
 import {useState} from 'react';
 import {TopBar} from './components/topbar';
-import { CardGrid } from './components/cardgrid';
-import { Footer } from './components/footer';
+import {CardGrid} from './components/cardgrid';
+import {Footer} from './components/footer';
+
 
 export default function Host(){
     const [x, setX] = useState(0)

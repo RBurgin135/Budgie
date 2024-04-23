@@ -1,2 +1,6 @@
 node_modules
-tic tac toes.jsx
+.firebase
+build
+.firebaserc
+firebase.json
+firebase-debug.log

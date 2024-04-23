@@ -1,6 +1,7 @@
 import { useState } from "react"
+import { setTransaction } from "../back-end/databasing"
 
-export function CardGrid(){
+export function CardGrid({ cards }){
     const [transactions, setTransactions] = useState([1,4,3])
     const [jars, setJars] = useState([0,2,1])
 
@@ -39,8 +40,8 @@ function CardList({list}){
 
 function CardItem({item}){
     return (
-        <tr onClick={()=>null}>
-            <th>name</th>
+        <tr onClick={()=>setTransaction("richard", item, item, "19/12/2001")}>
+            <th>{item}</th>
             <th class="fixedWidth">gross</th>
             <th class="fixedWidth">affiliation</th>
         </tr>
