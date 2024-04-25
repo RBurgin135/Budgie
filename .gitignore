@@ -4,3 +4,4 @@ build
 .firebaserc
 firebase.json
 firebase-debug.log
+firebase-config.jsx
