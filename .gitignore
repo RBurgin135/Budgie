@@ -1,7 +1,2 @@
 node_modules
-.firebase
 build
-.firebaserc
-firebase.json
-firebase-debug.log
-firebase-config.jsx
