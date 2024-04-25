@@ -2,7 +2,6 @@ import {useState} from 'react';
 import {TopBar} from './components/topbar';
 import {CardGrid} from './components/cardgrid';
 import {Footer} from './components/footer';
-import {updateData} from './back-end/databasing';
 
 
 export default function Host(){
